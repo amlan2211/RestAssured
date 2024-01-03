@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Reqres.CreateProject_1">
+      <class name="authentication.FlipKart">
         <methods>
-          <include name="Test"/>
+          <include name="reversetheString"/>
         </methods>
-      </class> <!-- Reqres.CreateProject_1 -->
+      </class> <!-- authentication.FlipKart -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

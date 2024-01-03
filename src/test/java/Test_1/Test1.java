@@ -2,25 +2,38 @@ package Test_1;
 
 import static io.restassured.RestAssured.given;
 
-import org.openqa.selenium.WebDriver;
+import java.util.Iterator;
+
 import org.testng.annotations.Test;
 
-import io.restassured.http.ContentType;
-import io.restassured.response.Response;
+
+
 
 public class Test1 
 {
 	@Test
 	public void Validation()
-	{
-
-		given().
-//	.assertThat()
-//	.statusCode(201)
-//	.contentType(ContentType.JSON)
-		.log()
-		.all();
+	{  
+		int n=5;
+		for(int i=0;i<=n;i++)
+		{
+			for(int j=1;j<=i;j++)
+			{
+				System.out.print(" ");
+			}
+			
+			for(int j=i;j<=n;j++)
+			{
+				System.out.print("*");
+			}
+			System.out.println();
+		}
 		
+		
+	}
+	@Test
+	public void validates() 
+	{
 		
 		
 	}
